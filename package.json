@@ -18,5 +18,13 @@
     "megasniff"
   ],
   "author": "Simon Siegert",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simsieg/megasniff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simsieg/megasniff/issues"
+  },
+  "homepage": "https://github.com/simsieg/megasniff#readme"
 }
