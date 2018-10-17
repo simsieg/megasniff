@@ -1,0 +1,22 @@
+{
+  "name": "megasniff",
+  "version": "1.0.0",
+  "description": "Better debugging for promise chains and pipelines",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "debug",
+    "log",
+    "logger",
+    "promise",
+    "chain",
+    "pipeline",
+    "megasniff"
+  ],
+  "author": "Simon Siegert",
+  "license": "MIT"
+}
