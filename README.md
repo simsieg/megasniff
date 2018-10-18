@@ -59,7 +59,7 @@ This yields in the console:
 const megasniff = require('megasniff')
 
 new Promise(resolve => resolve('Good'))
-  .then(megasniff.config({ prefix: `Value at ${new Date()}:` }))
+  .then(megasniff.config({ suffix: `Value at ${new Date()}:` }))
 ```
 This yields on stdout:
 ```shell
@@ -71,7 +71,7 @@ const megasniff = require('megasniff')
 const logger = console
 
 new Promise((resolve, reject) => reject(new Error('Bad')))
-  .catch(megasniff.config({ suffix: '.. We are condemned' }))
+  .catch(megasniff.config({ suffix: '.. We are doomed' }))
   .catch(error => error)
 ```
 
